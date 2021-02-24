@@ -1,0 +1,13 @@
+
+/* Latest news Section */
+
+.latest-news-img {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.latest-news-img-1 {
+  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/california-car-ev-hydrogen-future-electruc-fcev-ev-480x270.png")
+}
