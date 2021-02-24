@@ -321,13 +321,13 @@ footer > nav:first-child {
   padding: 0 10px;
 }
 
-.latest-funding-header h2 a {
+.general-title h2 a {
   font-family: avalon, sans-serif;
   color: #f42;
   font-weight: bold;
 }
 
-.latest-funding-header h2 svg {
+.general-title h2 svg {
   display: inline-block;
   background-size: 16px 16px;
   content: "";
