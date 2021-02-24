@@ -1,13 +1,36 @@
-
 /* Latest news Section */
+.basic-lateest-new-section {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.basic-lateest-new-section > div {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+}
+
+.basic-lateest-new-section > h4 {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.basic-lateest-new-section > ul {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.basic-lateest-new-section > ul > li {
+  display: inline-block;
+}
 
 .latest-news-img {
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 100px;
-  height: 100px;
+  min-height: 75px;
 }
 
 .latest-news-img-1 {
-  background: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/california-car-ev-hydrogen-future-electruc-fcev-ev-480x270.png")
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/california-car-ev-hydrogen-future-electruc-fcev-ev-480x270.png");
 }
