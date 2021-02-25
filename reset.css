@@ -64,6 +64,10 @@ table {
   list-style: none;
 }
 
+.line-through {
+  text-decoration: line-through;
+}
+
 .decoration-none {
   text-decoration: none;
 }
@@ -118,7 +122,7 @@ w-100 {
 
 .container {
   margin: 0 auto;
-  width: 80%;
+  width: 96%;
 }
 
 /* Paddings */
