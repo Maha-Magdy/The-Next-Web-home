@@ -150,6 +150,7 @@ h5 {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 #grid-container {
   display: grid;
   grid-template-columns: 1fr;
