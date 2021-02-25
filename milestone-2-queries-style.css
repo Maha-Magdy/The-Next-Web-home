@@ -1,19 +1,18 @@
 @media screen and (min-width: 768px) {
-  
   .container {
     width: 98%;
   }
-  
+
   #latest-news-main-title {
     margin-left: 15px;
-    font-size: 28px;    
+    font-size: 28px;
   }
 
   .latest-news-container {
     display: flex;
     flex-flow: wrap;
   }
-  
+
   .latest-new {
     flex-direction: column;
     width: 230px;
@@ -39,6 +38,18 @@
   .hide {
     display: none;
   }
+
+  #categories {
+    display: flex;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+  }
+
+  #categories > section {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -50,11 +61,17 @@
 
   .latest-news-img,
   .latest-deals-img {
-  border: none;
+    border: none;
   }
 
   .hide {
     display: block;
+  }
+
+  #categories > section {
+    width: 33.3333%;
+    padding: 10px;
+    box-sizing: border-box;
   }
 }
 
