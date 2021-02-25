@@ -46,6 +46,10 @@ h5 {
   text-decoration: none;
 }
 
+.orange-color {
+  color: #f42;
+}
+
 /* header */
 .basic-header {
   position: fixed;
@@ -129,16 +133,22 @@ h5 {
 }
 
 .nav-message-announcement {
-  line-height: 60px;
+  line-height: 140%;
   font-family: maquette, sans-serif;
   font-size: 10px;
-  padding: 5px 10px;
+  padding: 10px;
   box-shadow: 0 16px 48px rgb(0 0 0 / 15%);
   background: #fd3;
   color: #000;
   display: block;
   text-decoration: none;
   font-weight: bold;
+}
+
+.nav-message-announcement p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #grid-container {
@@ -321,13 +331,13 @@ footer > nav:first-child {
   padding: 0 10px;
 }
 
-.latest-funding-header h2 a {
+.general-title h2 a {
   font-family: avalon, sans-serif;
   color: #f42;
   font-weight: bold;
 }
 
-.latest-funding-header h2 svg {
+.general-title h2 svg {
   display: inline-block;
   background-size: 16px 16px;
   content: "";
