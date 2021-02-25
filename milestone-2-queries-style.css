@@ -15,8 +15,10 @@
 
   .latest-new {
     flex-direction: column;
-    width: 230px;
-    margin-left: 15px;
+    width: 33.333%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    display: flex;
   }
 
   .latest-news-img {
@@ -50,6 +52,10 @@
     padding: 10px;
     box-sizing: border-box;
   }
+
+  .story-dealDiscount {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -73,16 +79,16 @@
     padding: 10px;
     box-sizing: border-box;
   }
-}
 
-@media screen and (min-width: 1401px) {
   .container {
     width: 70%;
   }
 
   .latest-new {
-    flex-direction: column;
-    width: 280px;
-    margin-left: 15px;
+    width: 100%;
+  }
+
+  .story-dealDiscount {
+    display: block;
   }
 }

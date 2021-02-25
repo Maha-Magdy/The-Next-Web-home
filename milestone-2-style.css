@@ -106,7 +106,6 @@ h2#latest-news-main-title {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
-  margin-top: 5px;
   border: solid 1px black;
   border-left: none;
   border-top: none;
@@ -148,7 +147,6 @@ h2#latest-news-main-title {
 }
 
 .section-popular div:first-child {
-  height: 276px;
   background-color: #000;
   background-size: cover;
   background-position: 50%;
@@ -329,6 +327,10 @@ h2#latest-news-main-title {
   background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/dev-leadership-gq.png");
 }
 
+.section-popular-image-8 {
+  background-image: ;
+}
+
 .section-latest-image-8 {
   background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/hummer-ev-future-car-love-hate-next-gmc-gm-ultium.jpg");
 }
@@ -347,4 +349,36 @@ h2#latest-news-main-title {
   vertical-align: -0.1em !important;
   background: none !important;
   padding: 0 !important;
+}
+
+.story-dealDiscount {
+  background-image: url(https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #000;
+  display: none;
+  height: 80px;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  z-index: 10;
+}
+
+.story-dealDiscount > div {
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+  left: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  width: 100%;
+}
+
+.latest-new {
+  position: relative;
 }
