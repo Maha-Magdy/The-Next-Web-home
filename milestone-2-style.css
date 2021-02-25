@@ -5,7 +5,7 @@
   width: 90%;
 }
 
-h2#latest-news-main-title {
+h2.latest-news-main-title {
   font-size: 22px;
   font-family: Avalon, sans-serif;
 }
