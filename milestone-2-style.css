@@ -386,3 +386,7 @@ h2.latest-news-main-title {
 .latest-new {
   position: relative;
 }
+
+.latest-deals-see-details {
+  color: #f42; 
+}
