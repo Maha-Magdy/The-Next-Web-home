@@ -30,13 +30,13 @@
 
 ## Authors
 
-👤 **Author1**
+👤 **Marco Parra**
 
-- GitHub: [@vitorelourenco](https://github.com/vitorelourenco/)
-- Twitter: [@Vitorel](https://twitter.com/Vitorel)
-- LinkedIn: [vitoremanuellourenco](https://www.linkedin.com/in/vitoremanuellourenco/)
+- GitHub: [@mrigorir](https://github.com/mrigorir)
+- Twitter: [@marcoparra311](https://twitter.com/marcoparra311)
+- LinkedIn: [Marco Parra](https://www.linkedin.com/in/marco-parra-leal-a93318101/)
 
-👤 **Author2**
+👤 **Maha Magdy**
 
 - GitHub: [Maha-Magdy](https://github.com/Maha-Magdy)
 - Twitter: [@Maha_M_Abdelaal](https://twitter.com/Maha_M_Abdelaal)

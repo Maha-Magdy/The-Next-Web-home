@@ -146,6 +146,18 @@ h2.latest-news-main-title {
   overflow: hidden;
 }
 
+.story-dealDiscount > div {
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+  left: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  width: 100%;
+}
+
 .section-popular div:first-child {
   background-color: #000;
   background-size: cover;
@@ -159,9 +171,7 @@ h2.latest-news-main-title {
 }
 
 .section-popular-trigger {
-  background: transparent
-    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png")
-    no-repeat;
+  background: transparent url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
   background-size: 100% 100%;
   bottom: 0;
   left: 0;
@@ -334,7 +344,7 @@ h2.latest-news-main-title {
 }
 
 .section-latest-image-8 {
-  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/hummer-ev-future-car-love-hate-next-gmc-gm-ultium.jpg")
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/hummer-ev-future-car-love-hate-next-gmc-gm-ultium.jpg");
 }
 
 .section-popular-image-9 {
@@ -344,8 +354,6 @@ h2.latest-news-main-title {
 .section-latest-image-9 {
   background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/bloodlines.jpg");
 }
-
-
 
 .section-headline-title img {
   display: inline !important;
@@ -373,18 +381,6 @@ h2.latest-news-main-title {
   top: 0;
   width: 80px;
   z-index: 10;
-}
-
-.story-dealDiscount > div {
-  transform: rotate(45deg);
-  font-size: 14px;
-  font-weight: 700;
-  left: 8px;
-  position: relative;
-  text-align: center;
-  text-transform: uppercase;
-  top: 20px;
-  width: 100%;
 }
 
 .latest-new {
