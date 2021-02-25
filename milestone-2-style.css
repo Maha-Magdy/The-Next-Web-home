@@ -383,10 +383,10 @@ h2.latest-news-main-title {
   z-index: 10;
 }
 
-.latest-new {
-  position: relative;
+.latest-deals-see-details {
+  color: #f42;
 }
 
-.latest-deals-see-details {
-  color: #f42; 
+.latest-new {
+  position: relative;
 }
