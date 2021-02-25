@@ -11,7 +11,7 @@ h2#latest-news-main-title {
 }
 
 .latest-news-img1 {
-  background-image: url('https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/california-car-ev-hydrogen-future-electruc-fcev-ev-480x270.png');
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/california-car-ev-hydrogen-future-electruc-fcev-ev-480x270.png");
 }
 
 .latest-news-img2 {
@@ -31,7 +31,7 @@ h2#latest-news-main-title {
 }
 
 .latest-news-img6 {
-  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1-copy-51-516x270.jpg") ;
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1-copy-51-516x270.jpg");
 }
 
 .latest-news-img7 {
@@ -101,15 +101,15 @@ h2#latest-news-main-title {
 
 .latest-news-img,
 .latest-deals-img {
- width: 75px;
- height: 75px;
- background-repeat: no-repeat;
- background-size: cover;
- background-position: 50%;
- margin-top: 5px;
- border: solid 1px black;
- border-left: none;
- border-top: none;
+  width: 75px;
+  height: 75px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  margin-top: 5px;
+  border: solid 1px black;
+  border-left: none;
+  border-top: none;
 }
 
 .latest-deals-name {
@@ -131,4 +131,166 @@ h2#latest-news-main-title {
 
 .latest-news-name:hover {
   color: #555;
+}
+
+#categories .general-title h2 {
+  font-size: 24px;
+  font-family: Avalon, sans-serif;
+  font-weight: bold;
+}
+
+.section-popular {
+  height: 0;
+  padding-top: 75%;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.section-popular div:first-child {
+  height: 276px;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.section-popular-trigger {
+  background: transparent
+  url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152646oe_/https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png")
+  no-repeat;
+  background-size: 100% 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.section-popular-image-1 {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
+}
+
+.section-popular-header {
+  bottom: 0;
+  left: 0;
+  padding: 14px;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+}
+
+.section-popular-section {
+  color: white;
+  font-size: 13px;
+}
+
+.section-popular-title a {
+  line-height: 1.1;
+  margin-bottom: 6px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.section-popular-byline,
+.section-popular-byline a {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.section-popular-byline li {
+  display: inline-block;
+}
+
+.section-popular-byline li:first-child::after {
+  content: "\B7";
+  display: block;
+  float: right;
+  margin: 0 3px 0 6px;
+}
+
+.section-latest {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 68, 34, 0.06);
+  margin: 2px 0;
+}
+
+.section-latest-image {
+  flex: 0 0 96px;
+  background-color: #000;
+  background-position: 50%;
+  background-size: cover;
+  height: 96px;
+  width: 96px;
+}
+
+.section-latest-image-1 {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-20th_Anniversary_Schwab_Foundation_Gala_Dinner_44887783681-e1611132397581.jpg");
+}
+
+.section-latest-title {
+  max-height: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.section-latest-header {
+  flex: 1;
+  overflow: hidden;
+  padding: 10px 14px 0;
+}
+
+.section-headline {
+  border-bottom: 1px solid #eee;
+}
+
+.section-headline h4 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.section-headline h4 a {
+  color: #555;
+  display: block;
+  padding: 6px 0 6px 14px;
+  position: relative;
+  text-decoration: none;
+}
+
+.section-headline h4 a::before {
+  background-color: #f42;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 13px;
+  width: 4px;
+}
+
+.section-popular-image-2 {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
+}
+
+.section-latest-image-2 {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/header-image-bernie-sitting-meme-analysis.png");
+}
+
+.section-latest-image-3 {
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple-AR-glasses-headset.jpg");
 }
