@@ -46,6 +46,10 @@ h5 {
   text-decoration: none;
 }
 
+.orange-color {
+  color: #f42;
+}
+
 /* header */
 .basic-header {
   position: fixed;
