@@ -36,6 +36,12 @@
 - Twitter: [@marcoparra311](https://twitter.com/marcoparra311)
 - LinkedIn: [Marco Parra](https://www.linkedin.com/in/marco-parra-leal-a93318101/)
 
+👤 **Vitor Lourenco**
+
+- GitHub: [@vitorelourenco](https://github.com/vitorelourenco/)
+- Twitter: [@Vitorel](https://twitter.com/Vitorel)
+- LinkedIn: [vitoremanuellourenco](https://www.linkedin.com/in/vitoremanuellourenco/)
+
 👤 **Maha Magdy**
 
 - GitHub: [Maha-Magdy](https://github.com/Maha-Magdy)
