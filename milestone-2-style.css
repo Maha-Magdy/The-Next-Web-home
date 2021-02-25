@@ -122,3 +122,13 @@ h2#latest-news-main-title {
   font-size: 16px;
   margin: 1px 0 0 3px;
 }
+
+.latest-deals-title:hover,
+.latest-news-title:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.latest-news-name:hover {
+  color: #555;
+}
