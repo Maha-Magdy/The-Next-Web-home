@@ -45,7 +45,7 @@
 
 - GitHub: [@mrigorir](https://github.com/mrigorir)
 - Twitter: [@marcoparra311](https://twitter.com/marcoparra311)
-- LinkedIn: [Marco Parra](https://www.linkedin.com/in/marco-parra-leal-a93318101/)
+- LinkedIn: [Marco Parra](https://www.linkedin.com/in/marco-alonso-parra/)
 
 ## 🤝 Contributing
 
